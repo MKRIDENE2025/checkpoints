@@ -1,0 +1,66 @@
+///exercice1//
+Algorithme SommePairs
+Variables
+  N, i, nombre, somme : entier
+Début
+  somme ← 0
+  Ecrire "Donner la taille de la liste N : "
+  Lire N
+  Pour i ← 1 à N faire
+    Ecrire "Donner un nombre : "
+    Lire nombre
+    Si (nombre mod 2 = 0) Alors
+      somme ← somme + nombre
+    FinSi
+  FinPour
+  Ecrire "La somme des nombres pairs est : ", somme
+Fin
+///exercice2//
+Algorithme CompterPairs
+Variables
+  nombre, compteur : entier
+Début
+  compteur ← 0
+  Répéter
+    Ecrire "Donner un nombre (0 pour arrêter) : "
+    Lire nombre
+    Si (nombre mod 2 = 0) ET (nombre ≠ 0) Alors
+      compteur ← compteur + 1
+    FinSi
+  Jusqu’à (nombre = 0)
+  Ecrire "Nombre total de nombres pairs saisis : ", compteur
+Fin
+///exercice3///
+Algorithme Multiplication
+Fonction CalculerProduit(a: entier, b: entier) : entier
+Début
+  Retourner a * b
+Fin
+
+Procédure AfficherRésultat(resultat: entier)
+Début
+  Ecrire "Le résultat est : ", resultat
+Fin
+
+Variables
+  x, y, produit : entier
+Début
+  Ecrire "Donner le premier nombre : "
+  Lire x
+  Ecrire "Donner le deuxième nombre : "
+  Lire y
+  produit ← CalculerProduit(x, y)
+  AfficherRésultat(produit)
+Fin
+///exercice4///
+Algorithme affichage
+Variables
+  x : entier
+Début
+  x ← 5
+  Si (x >= 5) Alors
+    Ecrire "x est grand"
+  Sinon
+    Ecrire "x est petit"
+  FinSi
+Fin
