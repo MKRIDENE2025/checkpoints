@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mon Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mon Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="accueil" aria-labelledby="titre-accueil">
+      <h2 id="titre-accueil">Accueil</h2>
+      <p>Voici une vidéo de présentation.</p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="Vidéo de présentation"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="a-propos" aria-labelledby="titre-a-propos">
+      <h2 id="titre-a-propos">À propos</h2>
+      <p>
+        Je suis une développeuse passionnée, attentive aux détails et orientée solution.
+        J’aime concevoir des interfaces claires et des expériences utiles, et apprendre
+        en continu pour améliorer mes projets.
+      </p>
+
+      <h3>Compétences</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Structure sémantique, accessibilité et bonnes pratiques.</dd>
+
+        <dt>CSS</dt>
+        <dd>Layouts modernes, typographie, design cohérent.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Interactions dynamiques, logique front-end et intégration API.</dd>
+
+        <dt>Git</dt>
+        <dd>Versionning, branches, commits clairs et workflow organisé.</dd>
+      </dl>
+    </section>
+
+    <section id="services" aria-labelledby="titre-services">
+      <h2 id="titre-services">Services</h2>
+      <table>
+        <caption>Catalogue des services</caption>
+        <thead>
+          <tr>
+            <th>Nom du service</th>
+            <th>Description</th>
+            <th>Durée et Prix</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Site vitrine</td>
+            <td>Création d’une page de présentation professionnelle.</td>
+            <td>1-2 semaines — 500 TND</td>
+          </tr>
+          <tr>
+            <td>Refonte UI</td>
+            <td>Amélioration de l’ergonomie et du design existant.</td>
+            <td>1 semaine — 350 TND</td>
+          </tr>
+          <tr>
+            <td>Intégration formulaire</td>
+            <td>Formulaire de contact avec validation basique.</td>
+            <td>3 jours — 200 TND</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact" aria-labelledby="titre-contact">
+      <h2 id="titre-contact">Contact</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Informations personnelles</legend>
+
+          <label for="nom">Nom</label><br>
+          <input type="text" id="nom" name="nom" required><br><br>
+
+          <label for="prenom">Prénom</label><br>
+          <input type="text" id="prenom" name="prenom" required><br><br>
+
+          <label for="telephone">Téléphone</label><br>
+          <input type="tel" id="telephone" name="telephone"><br><br>
+
+          <label for="adresse">Adresse physique</label><br>
+          <input type="text" id="adresse" name="adresse"><br><br>
+
+          <label for="email">Adresse e-mail</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+          <button type="submit">Envoyer</button>
+          <button type="reset">Annuler</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Mon Portfolio</p>
+  </footer>
+
+</body>
+</html>
