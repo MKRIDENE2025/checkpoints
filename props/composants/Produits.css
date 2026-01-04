@@ -1,0 +1,8 @@
+.produit{
+    margin-top: 100px !important;
+}
+.row{
+    display: flex;
+    gap:80px;
+    
+}
