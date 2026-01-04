@@ -1,0 +1,35 @@
+.features-section {
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/08/01/27/spa-5382250_1280.jpg); 
+  padding: 60px 0;
+  color: #6D4C3D;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #6D4C3D;
+}
+
+.feature-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(244, 191, 117, 0.3);
+  background-color: #171201 !important;
+  transition: transform 0.3s ease;
+  color: #f3f0b8 !important;
+}
+
+.feature-card:hover {
+  transform: translateY(-25px);
+  box-shadow: 0 20px 20px rgba(244, 191, 117, 0.5);
+}
+
+.feature-card .card-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.feature-card .card-text {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
