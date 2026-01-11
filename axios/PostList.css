@@ -1,0 +1,39 @@
+.post-list {
+  max-width: 600px;
+  margin-left: 50px;
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #2a3e30;
+}
+
+.post {
+  background: #b9ed9e;
+  border: 10px solid #7d967e;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.post:hover {
+  transform: scale(1.02);
+  background: #12f506;
+}
+
+.post h3 {
+  margin: 0 0 10px;
+  color: #546552;
+  font-size: 18px;
+}
+
+.post p {
+  margin: 0;
+  color: #2a3e30;
+  line-height: 1.4;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
