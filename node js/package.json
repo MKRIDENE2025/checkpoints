@@ -1,0 +1,13 @@
+{
+  "name": "checkpoint-node",
+  "version": "1.0.0",
+  "description": "checkpoint nodjs",
+  "license": "ISC",
+  "author": "kridene manel",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node",
+    "start": "node server.js"
+  }
+}
